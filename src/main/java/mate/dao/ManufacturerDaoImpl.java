@@ -1,10 +1,5 @@
 package mate.dao;
 
-import mate.exception.DataProcessingException;
-import mate.lib.Dao;
-import mate.model.Manufacturer;
-import mate.util.ConnectionUtil;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -13,6 +8,10 @@ import java.sql.Statement;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
+import mate.exception.DataProcessingException;
+import mate.lib.Dao;
+import mate.model.Manufacturer;
+import mate.util.ConnectionUtil;
 
 @Dao
 public class ManufacturerDaoImpl implements ManufacturerDao {

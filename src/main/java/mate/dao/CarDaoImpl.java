@@ -1,12 +1,5 @@
 package mate.dao;
 
-import mate.exception.DataProcessingException;
-import mate.lib.Dao;
-import mate.model.Car;
-import mate.model.Driver;
-import mate.model.Manufacturer;
-import mate.util.ConnectionUtil;
-
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.ResultSet;
@@ -16,6 +9,12 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 import java.util.stream.Collectors;
+import mate.exception.DataProcessingException;
+import mate.lib.Dao;
+import mate.model.Car;
+import mate.model.Driver;
+import mate.model.Manufacturer;
+import mate.util.ConnectionUtil;
 
 @Dao
 public class CarDaoImpl implements CarDao {

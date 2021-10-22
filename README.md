@@ -26,17 +26,17 @@ src/main/resources/init_db.sql - file for creating DB with tables.
 
 4️⃣ Configuration connection to DB for:
 src/main/java/mate/util/ConnectionUtil.java - file for configuration.
-~~~
+```java
     private static final String URL = "url DB";
     private static final String USERNAME = "YOUR_USERNAME";
     private static final String PASSWORD = "YOUR_PASSWORD";
-~~~
+```
 Example:
-~~~
+```java
     private static final String URL = "jdbc:mysql://localhost:3306/taxi";
     private static final String USERNAME = "root";
     private static final String PASSWORD = "1234";
-~~~
+```
 5️⃣ Run Tomcat 🚀.
 # ⭐ Also you can use Heroku
 I added all the settings for this:
